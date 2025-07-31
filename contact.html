@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Voyage IQ by Shiparc.ai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/contact.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="/public/VIQ_LOGO.png" alt="VoyageIQ Logo" style="height: 60px;"> 
+            </div>
+             <div class="nav-links">
+                <a href="/index.html" class="nav-link">Home</a>
+                <a href="/about.html" class="nav-link">About us</a>
+                <a href="/contact.html" class="nav-link">Contact us</a>
+                <a href="/contact.html">
+                   <button class="demo-btn">Get the product demo</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="contact-main">
+<div class="contact-form-container">
+ 
+  <!-- Contact Info Block -->
+ <div class="form-contact-info" style="margin: 80px 0 0 0;">
+<div class="form-contact-info">
+  <span class="contact-label">You can directly reach out to us via:</span>
+  <div class="info-item">
+    <span class="contact-icon">📞</span>
+    <a href="tel:+971558900905">+971 55 890 0905</a>
+  </div>
+  <div class="info-item">
+    <span class="contact-icon">📧</span>
+    <a href="mailto:support@voyageiq.ai">support@voyageiq.ai</a>
+  </div>
+</div>
+</div>
+
+  <!-- Contact Form -->
+  <form id="contact-form">
+    <!-- Your existing form fields here -->
+  </form>
+</div>
+        <div class="contact-container">
+            <!-- Left Side - Maritime Professional Image -->
+            <div class="contact-visual">
+                <img src="https://images.pexels.com/photos/1117210/pexels-photo-1117210.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Maritime Professional" class="maritime-image">
+            </div>
+
+            <!-- Right Side - Contact Form -->
+            <div class="contact-form-container">
+                <div class="form-content">
+                    <h1 class="form-title">Get In Touch With Us</h1>
+                    <p class="form-subtitle">Need Help? Please fill up the below information and we will get back to you within 24 hours</p>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group half-width">
+                                <input type="text" id="firstName" name="firstName" placeholder="First Name *" required>
+                            </div>
+                            <div class="form-group half-width">
+                                <input type="text" id="lastName" name="lastName" placeholder="Last Name *" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Id *" required>
+                        </div>
+
+                        <div class="form-group phone-group">
+                            <div class="phone-input">
+                                <select class="country-code" id="countryCode" name="countryCode">
+                                    <option value="+971">+971</option>
+                                    <option value="+1">+1</option>
+                                    <option value="+44">+44</option>
+                                    <option value="+91">+91</option>
+                                    <option value="+86">+86</option>
+                                </select>
+                                <input type="tel" id="phone" name="phone" placeholder="Phone *" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="company" name="company" placeholder="Company Name *" required>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Message *" rows="5" required></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <div class="recaptcha-placeholder">
+                                <input type="checkbox" id="recaptcha" name="recaptcha" required>
+                                <label for="recaptcha">I'm not a robot</label>
+                                <div class="recaptcha-icon">🤖</div>
+                            </div>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">I agree to receive other communications & newsletter from Shiparc.AI.</label>
+                        </div>
+
+                        <div class="disclaimer">
+                            <p>You can unsubscribe from these communications at any time. For more information on how to unsubscribe, our privacy practices, and how we are committed to protecting and respecting your privacy, please review our Privacy Policy here. By clicking submit below, you consent to allow Shiparc.AI to store and process the personal information submitted above to provide you the content requested.</p>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Submit</span>
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                    </form>
+
+                    <!-- Success Message -->
+                    <div class="success-message" id="successMessage">
+                        <div class="success-icon">✓</div>
+                        <h3>Thank you for contacting us!</h3>
+                        <p>We'll get back to you within 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Social Icons -->
+        <div class="floating-social">
+            <a href="https://linkedin.com/company/shiparc" class="social-icon" target="_blank">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                    <rect x="2" y="9" width="4" height="12"/>
+                    <circle cx="4" cy="4" r="2"/>
+                </svg>
+            </a>
+            <a href="mailto:support@voyageiq.ai" class="social-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                </svg>
+            </a>
+            <a href="tel:+971558900905" class="social-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+            </a>
+            <a href="https://wa.me/971558900905" class="social-icon" target="_blank">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                </svg>
+            </a>
+        </div>
+
+        <!-- Scroll to Top Button -->
+        <button class="scroll-top" id="scrollTop">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 15l-6-6-6 6"/>
+            </svg>
+        </button>
+    </main>
+
+    <script src="/contact.js"></script>
+</body>
+</html>

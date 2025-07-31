@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability Analytics - Voyage IQ by Shiparc.ai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="sustainability.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="VIQ LOGO (1) 1 1.png" alt="Voyage IQ Logo" class="logo-image">
+                <span class="logo-text">Voyage IQ <span class="by-text">by Shiparc.ai</span></span>
+            </div>
+            <div class="nav-links">
+                <a href="./index.html" class="nav-link">Home</a>
+                <a href="./about.html" class="nav-link">About us</a>
+                <a href="./index.html" class="nav-link">Contact us</a>
+            </div>
+            <button class="demo-btn">Get the product demo</button>
+        </nav>
+    </header>
+
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="hero-title">Sustainability Analytics</h1>
+                <p class="hero-subtitle">Transform environmental data into actionable insights for eco-friendly maritime operations. Monitor, optimize, and lead the industry towards a sustainable future.</p>
+                <div class="analytics-dashboard-preview" id="analyticsDashboard">
+                    <img src="Analytics_Sustainability.png" alt="Sustainability Analytics Dashboard" class="dashboard-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Environmental Pulse Check -->
+        <section class="metrics-section">
+            <div class="container">
+                <h2 class="section-title">Environmental Pulse Check</h2>
+                <p class="section-subtitle">Real-time environmental performance indicators for immediate assessment and strategic decision-making</p>
+                
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon co2-icon"></div>
+                        <div class="metric-content">
+                            <h3 class="metric-title">CO₂ Emissions</h3>
+                            <div class="metric-value">15 <span class="metric-unit">tons</span></div>
+                            <div class="metric-status reducing">
+                                <span class="status-indicator"></span>
+                                Monitoring Reduction
+                            </div>
+                        </div>
+                        <div class="metric-trend">
+                            <div class="trend-arrow down"></div>
+                            <span class="trend-value">-12%</span>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon nox-icon"></div>
+                        <div class="metric-content">
+                            <h3 class="metric-title">NOₓ Emissions</h3>
+                            <div class="metric-value">15 <span class="metric-unit">tons</span></div>
+                            <div class="metric-status optimizing">
+                                <span class="status-indicator"></span>
+                                Optimizing Compliance
+                            </div>
+                        </div>
+                        <div class="metric-trend">
+                            <div class="trend-arrow down"></div>
+                            <span class="trend-value">-8%</span>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon water-icon"></div>
+                        <div class="metric-content">
+                            <h3 class="metric-title">Fresh Water Consumed</h3>
+                            <div class="metric-value">15 <span class="metric-unit">m³</span></div>
+                            <div class="metric-status efficient">
+                                <span class="status-indicator"></span>
+                                Resource Efficiency
+                            </div>
+                        </div>
+                        <div class="metric-trend">
+                            <div class="trend-arrow down"></div>
+                            <span class="trend-value">-5%</span>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon oil-icon"></div>
+                        <div class="metric-content">
+                            <h3 class="metric-title">Lubricant Oil Consumed</h3>
+                            <div class="metric-value">15 <span class="metric-unit">litres</span></div>
+                            <div class="metric-status optimizing">
+                                <span class="status-indicator"></span>
+                                Consumable Optimization
+                            </div>
+                        </div>
+                        <div class="metric-trend">
+                            <div class="trend-arrow down"></div>
+                            <span class="trend-value">-15%</span>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon route-icon"></div>
+                        <div class="metric-content">
+                            <h3 class="metric-title">Supply Chain Miles</h3>
+                            <div class="metric-value">15 <span class="metric-unit">nm</span></div>
+                            <div class="metric-status efficient">
+                                <span class="status-indicator"></span>
+                                Route Environmental Impact
+                            </div>
+                        </div>
+                        <div class="metric-trend">
+                            <div class="trend-arrow down"></div>
+                            <span class="trend-value">-22%</span>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon waste-icon"></div>
+                        <div class="metric-content">
+                            <h3 class="metric-title">Waste Generated</h3>
+                            <div class="metric-value">15 <span class="metric-unit">m³</span></div>
+                            <div class="metric-status reducing">
+                                <span class="status-indicator"></span>
+                                Waste Management Progress
+                            </div>
+                        </div>
+                        <div class="metric-trend">
+                            <div class="trend-arrow down"></div>
+                            <span class="trend-value">-18%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emission & Resource Trends -->
+        <section class="trends-section">
+            <div class="container">
+                <h2 class="section-title">Emission & Resource Consumption Trends</h2>
+                <p class="section-subtitle">Deep dive analytics with interactive visualizations for comprehensive environmental impact analysis</p>
+                
+                <div class="chart-controls">
+                    <div class="control-group">
+                        <button class="control-btn active" data-view="trend">Trend</button>
+                        <button class="control-btn" data-view="vessel">Vessel-wise</button>
+                    </div>
+                </div>
+
+                <div class="charts-grid">
+                    <div class="chart-container">
+                        <div class="chart-header">
+                            <h3 class="chart-title">Total CO₂ Emission (Kgs) Trend</h3>
+                            <div class="chart-icon co2-chart-icon"></div>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="co2Chart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <div class="chart-header">
+                            <h3 class="chart-title">Total NOₓ Emission (Kgs) Trend</h3>
+                            <div class="chart-icon nox-chart-icon"></div>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="noxChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <div class="chart-header">
+                            <h3 class="chart-title">Total Fresh Water Consumed (m³) Trend</h3>
+                            <div class="chart-icon water-chart-icon"></div>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="waterChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <div class="chart-header">
+                            <h3 class="chart-title">Total Lubricant Oil Consumed (litres) Trend</h3>
+                            <div class="chart-icon oil-chart-icon"></div>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="oilChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Waste & Operational Impact -->
+        <section class="waste-section">
+            <div class="container">
+                <h2 class="section-title">Comprehensive Waste & Operational Impact Analytics</h2>
+                <p class="section-subtitle">Critical insights into waste management streams and environmental implications of operational activities</p>
+                
+                <div class="waste-charts-grid">
+                    <div class="chart-container large">
+                        <div class="chart-header">
+                            <h3 class="chart-title">Waste Generated Breakdown</h3>
+                            <div class="chart-icon waste-chart-icon"></div>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="wasteChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-container large">
+                        <div class="chart-header">
+                            <h3 class="chart-title">Supply Chain Miles Trend</h3>
+                            <div class="chart-icon route-chart-icon"></div>
+                        </div>
+                        <div class="chart-wrapper">
+                            <canvas id="supplyChainChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Actionable Insights -->
+        <section class="insights-section">
+            <div class="container">
+                <h2 class="section-title">Actionable Insights & Compliance Assurance</h2>
+                <div class="insights-content">
+                    <div class="insights-text">
+                        <p class="insights-description">
+                            Voyage IQ transforms raw environmental data into a clear, actionable roadmap for eco-friendly operations. 
+                            Identify inefficiencies, track progress towards ambitious sustainability goals, and ensure proactive 
+                            compliance with evolving global regulations.
+                        </p>
+                        <div class="insights-benefits">
+                            <div class="benefit-item">
+                                <div class="benefit-icon efficiency-icon"></div>
+                                <div class="benefit-content">
+                                    <h4>Operational Efficiency</h4>
+                                    <p>Optimize resource consumption and reduce environmental footprint through data-driven decisions</p>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon compliance-icon"></div>
+                                <div class="benefit-content">
+                                    <h4>Regulatory Compliance</h4>
+                                    <p>Stay ahead of environmental regulations with proactive monitoring and reporting capabilities</p>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon sustainability-icon"></div>
+                                <div class="benefit-content">
+                                    <h4>Sustainability Leadership</h4>
+                                    <p>Lead the maritime industry towards a greener future with measurable environmental improvements</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="insights-graphic">
+                        <div class="data-flow-visualization">
+                            <div class="data-point point-1"></div>
+                            <div class="data-point point-2"></div>
+                            <div class="data-point point-3"></div>
+                            <div class="data-flow flow-1"></div>
+                            <div class="data-flow flow-2"></div>
+                            <div class="insight-arrow"></div>
+                            <div class="compliance-check"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="VIQ LOGO (1) 1 1.png" alt="Voyage IQ Logo" class="logo-image">
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Security</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Shiparc.ai. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="sustainability.js"></script>
+</body>
+</html>
